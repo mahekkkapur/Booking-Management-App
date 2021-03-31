@@ -1,0 +1,106 @@
+name: econoomaccess
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.3.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  firebase_core: ^0.4.0+9
+  firebase_database: ^3.1.3
+  firebase_storage:
+  time_formatter: ^1.0.0
+  intl:
+  geolocator: ^5.1.3
+  firebase_auth:
+  cloud_firestore: any
+  geoflutterfire: any
+  introduction_screen: ^1.0.7
+  geocoder: ^0.2.1
+  location: ^2.3.5
+  fluttertoast: ^4.0.1
+  pdf:
+  printing: ^3.3.1
+  # path_provider:
+  http:
+  provider: ^3.1.0
+  shared_preferences: ^0.5.7+3
+  firebase_messaging:
+  floating_bottom_navigation_bar: ^1.0.2
+  image_picker:
+  typicons_flutter:
+  google_maps_flutter:
+  flutter_dash:
+  razorpay_flutter: ^1.1.4
+  firebase_dynamic_links: ^0.5.1
+  dotted_border: ^1.0.5
+  flutter_rating_bar: ^3.0.1+1
+  url_launcher: ^5.4.10
+  youtube_player_flutter:
+  font_awesome_flutter:
+  permission_handler: ^3.2.2
+  agora_rtm:
+  agora_rtc_engine: ^1.0.12
+  wakelock: ^0.1.4+1
+  flutter_spinkit: "^4.1.2"
+  # flutter_dialogflow: 0.1.3
+  flutter_custom_clippers: ^1.1.1
+  flutter_svg: ^0.17.4
+  speech_to_text: ^2.2.0
+  flutter_dialogflow_v2: ^0.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  assets:
+    - assets/bot.json
+    - assets/svgs/
+    - images/
+    - resources/language/
+
+  fonts:
+    - family: SF Pro Text
+      fonts:
+        - asset: fonts/sf-pro-text-regular.ttf
+        - asset: fonts/sf-pro-text-bold.ttf
+
+    - family: Gilroy
+      fonts:
+        - asset: fonts/Gilroy-Light.ttf
+
+    - family: KaushanScript-Regular
+      fonts:
+        - asset: fonts/KaushanScript-Regular.ttf
+
+    - family: MyFlutterApp
+      fonts:
+        - asset: fonts/MyFlutterApp.ttf
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true

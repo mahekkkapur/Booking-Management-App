@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "553374073157",
+    "firebase_url": "https://naniz-team.firebaseio.com",
+    "project_id": "naniz-team",
+    "storage_bucket": "naniz-team.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553374073157:android:846b80cbb9da72a4783e2c",
+        "android_client_info": {
+          "package_name": "nl.blueavenue.econoomaccess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553374073157-n8j08fet1nm24rescbemstvmq38q0ssr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOuAea2Ogtmj_pEVBlPbmQnmXNr9z0-QE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553374073157-n8j08fet1nm24rescbemstvmq38q0ssr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
